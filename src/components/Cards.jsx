@@ -4,7 +4,7 @@ import Card from './Card'
 const Cards = () => {
 
     const [images, setImages] = useState([]);
-    const [input, setInput] = useState('')
+    const [input, setInput] = useState('cats')
 
     const peticion = useCallback(async () => {
 
