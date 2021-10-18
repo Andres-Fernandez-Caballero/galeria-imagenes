@@ -17,7 +17,7 @@ const Cards = () => {
             <div className="row">
             {
                images.map(element => (
-               <div className="col-4 my-2 ml-2" key={element.id}>
+               <div className="d-flex align-items-center justify-content-center col-md-4 my-2 ml-2" key={element.id}>
                    {console.log(element.description)}
                     <Card 
                         imagen={element.urls.regular} 
